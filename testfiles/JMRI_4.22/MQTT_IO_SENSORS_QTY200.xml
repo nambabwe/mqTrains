@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-4-19-2.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-4-19-2.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>22</minor>
+    <test>0</test>
+    <modifier />
+  </jmriversion>
+  <sensors class="jmri.jmrix.mqtt.configurexml.MqttSensorManagerXml">
+    <sensor inverted="false"><systemName>MS0001/01</systemName><userName>000101</userName></sensor>
+    <sensor inverted="false"><systemName>MS0001/02</systemName><userName>000102</userName></sensor>
+    <sensor inverted="false"><systemName>MS0001/03</systemName><userName>000103</userName></sensor>
+    <sensor inverted="false"><systemName>MS0001/04</systemName><userName>000104</userName></sensor>
+    <sensor inverted="false"><systemName>MS0001/05</systemName><userName>000105</userName></sensor>
+    <sensor inverted="false"><systemName>MS0001/06</systemName><userName>000106</userName></sensor>
+    <sensor inverted="false"><systemName>MS0001/07</systemName><userName>000107</userName></sensor>
+    <sensor inverted="false"><systemName>MS0001/08</systemName><userName>000108</userName></sensor>
+    <sensor inverted="false"><systemName>MS0001/09</systemName><userName>000109</userName></sensor>
+    <sensor inverted="false"><systemName>MS0001/10</systemName><userName>000110</userName></sensor>
+    
+    <sensor inverted="false"><systemName>MS0002/01</systemName><userName>000201</userName></sensor>
+    <sensor inverted="false"><systemName>MS0002/02</systemName><userName>000202</userName></sensor>
+    <sensor inverted="false"><systemName>MS0002/03</systemName><userName>000203</userName></sensor>
+    <sensor inverted="false"><systemName>MS0002/04</systemName><userName>000204</userName></sensor>
+    <sensor inverted="false"><systemName>MS0002/05</systemName><userName>000205</userName></sensor>
+    <sensor inverted="false"><systemName>MS0002/06</systemName><userName>000206</userName></sensor>
+    <sensor inverted="false"><systemName>MS0002/07</systemName><userName>000207</userName></sensor>
+    <sensor inverted="false"><systemName>MS0002/08</systemName><userName>000208</userName></sensor>
+    <sensor inverted="false"><systemName>MS0002/09</systemName><userName>000209</userName></sensor>
+    <sensor inverted="false"><systemName>MS0002/10</systemName><userName>000210</userName></sensor>
+    
+    <sensor inverted="false"><systemName>MS0003/01</systemName><userName>000301</userName></sensor>
+    <sensor inverted="false"><systemName>MS0003/02</systemName><userName>000302</userName></sensor>
+    <sensor inverted="false"><systemName>MS0003/03</systemName><userName>000303</userName></sensor>
+    <sensor inverted="false"><systemName>MS0003/04</systemName><userName>000304</userName></sensor>
+    <sensor inverted="false"><systemName>MS0003/05</systemName><userName>000305</userName></sensor>
+    <sensor inverted="false"><systemName>MS0003/06</systemName><userName>000306</userName></sensor>
+    <sensor inverted="false"><systemName>MS0003/07</systemName><userName>000307</userName></sensor>
+    <sensor inverted="false"><systemName>MS0003/08</systemName><userName>000308</userName></sensor>
+    <sensor inverted="false"><systemName>MS0003/09</systemName><userName>000309</userName></sensor>
+    <sensor inverted="false"><systemName>MS0003/10</systemName><userName>000310</userName></sensor>
+    
+    <sensor inverted="false"><systemName>MS0004/01</systemName><userName>000401</userName></sensor>
+    <sensor inverted="false"><systemName>MS0004/02</systemName><userName>000402</userName></sensor>
+    <sensor inverted="false"><systemName>MS0004/03</systemName><userName>000403</userName></sensor>
+    <sensor inverted="false"><systemName>MS0004/04</systemName><userName>000404</userName></sensor>
+    <sensor inverted="false"><systemName>MS0004/05</systemName><userName>000405</userName></sensor>
+    <sensor inverted="false"><systemName>MS0004/06</systemName><userName>000406</userName></sensor>
+    <sensor inverted="false"><systemName>MS0004/07</systemName><userName>000407</userName></sensor>
+    <sensor inverted="false"><systemName>MS0004/08</systemName><userName>000408</userName></sensor>
+    <sensor inverted="false"><systemName>MS0004/09</systemName><userName>000409</userName></sensor>
+    <sensor inverted="false"><systemName>MS0004/10</systemName><userName>000410</userName></sensor>
+    
+    <sensor inverted="false"><systemName>MS0005/01</systemName><userName>000501</userName></sensor>
+    <sensor inverted="false"><systemName>MS0005/02</systemName><userName>000502</userName></sensor>
+    <sensor inverted="false"><systemName>MS0005/03</systemName><userName>000503</userName></sensor>
+    <sensor inverted="false"><systemName>MS0005/04</systemName><userName>000504</userName></sensor>
+    <sensor inverted="false"><systemName>MS0005/05</systemName><userName>000505</userName></sensor>
+    <sensor inverted="false"><systemName>MS0005/06</systemName><userName>000506</userName></sensor>
+    <sensor inverted="false"><systemName>MS0005/07</systemName><userName>000507</userName></sensor>
+    <sensor inverted="false"><systemName>MS0005/08</systemName><userName>000508</userName></sensor>
+    <sensor inverted="false"><systemName>MS0005/09</systemName><userName>000509</userName></sensor>
+    <sensor inverted="false"><systemName>MS0005/10</systemName><userName>000510</userName></sensor>
+
+    <sensor inverted="false"><systemName>MS0006/01</systemName><userName>000601</userName></sensor>
+    <sensor inverted="false"><systemName>MS0006/02</systemName><userName>000602</userName></sensor>
+    <sensor inverted="false"><systemName>MS0006/03</systemName><userName>000603</userName></sensor>
+    <sensor inverted="false"><systemName>MS0006/04</systemName><userName>000604</userName></sensor>
+    <sensor inverted="false"><systemName>MS0006/05</systemName><userName>000605</userName></sensor>
+    <sensor inverted="false"><systemName>MS0006/06</systemName><userName>000606</userName></sensor>
+    <sensor inverted="false"><systemName>MS0006/07</systemName><userName>000607</userName></sensor>
+    <sensor inverted="false"><systemName>MS0006/08</systemName><userName>000608</userName></sensor>
+    <sensor inverted="false"><systemName>MS0006/09</systemName><userName>000609</userName></sensor>
+    <sensor inverted="false"><systemName>MS0006/10</systemName><userName>000610</userName></sensor>
+    
+    <sensor inverted="false"><systemName>MS0007/01</systemName><userName>000701</userName></sensor>
+    <sensor inverted="false"><systemName>MS0007/02</systemName><userName>000702</userName></sensor>
+    <sensor inverted="false"><systemName>MS0007/03</systemName><userName>000703</userName></sensor>
+    <sensor inverted="false"><systemName>MS0007/04</systemName><userName>000704</userName></sensor>
+    <sensor inverted="false"><systemName>MS0007/05</systemName><userName>000705</userName></sensor>
+    <sensor inverted="false"><systemName>MS0007/06</systemName><userName>000706</userName></sensor>
+    <sensor inverted="false"><systemName>MS0007/07</systemName><userName>000707</userName></sensor>
+    <sensor inverted="false"><systemName>MS0007/08</systemName><userName>000708</userName></sensor>
+    <sensor inverted="false"><systemName>MS0007/09</systemName><userName>000709</userName></sensor>
+    <sensor inverted="false"><systemName>MS0007/10</systemName><userName>000710</userName></sensor>
+    
+    <sensor inverted="false"><systemName>MS0008/01</systemName><userName>000801</userName></sensor>
+    <sensor inverted="false"><systemName>MS0008/02</systemName><userName>000802</userName></sensor>
+    <sensor inverted="false"><systemName>MS0008/03</systemName><userName>000803</userName></sensor>
+    <sensor inverted="false"><systemName>MS0008/04</systemName><userName>000804</userName></sensor>
+    <sensor inverted="false"><systemName>MS0008/05</systemName><userName>000805</userName></sensor>
+    <sensor inverted="false"><systemName>MS0008/06</systemName><userName>000806</userName></sensor>
+    <sensor inverted="false"><systemName>MS0008/07</systemName><userName>000807</userName></sensor>
+    <sensor inverted="false"><systemName>MS0008/08</systemName><userName>000808</userName></sensor>
+    <sensor inverted="false"><systemName>MS0008/09</systemName><userName>000809</userName></sensor>
+    <sensor inverted="false"><systemName>MS0008/10</systemName><userName>000810</userName></sensor>
+    
+    <sensor inverted="false"><systemName>MS0009/01</systemName><userName>000901</userName></sensor>
+    <sensor inverted="false"><systemName>MS0009/02</systemName><userName>000902</userName></sensor>
+    <sensor inverted="false"><systemName>MS0009/03</systemName><userName>000903</userName></sensor>
+    <sensor inverted="false"><systemName>MS0009/04</systemName><userName>000904</userName></sensor>
+    <sensor inverted="false"><systemName>MS0009/05</systemName><userName>000905</userName></sensor>
+    <sensor inverted="false"><systemName>MS0009/06</systemName><userName>000906</userName></sensor>
+    <sensor inverted="false"><systemName>MS0009/07</systemName><userName>000907</userName></sensor>
+    <sensor inverted="false"><systemName>MS0009/08</systemName><userName>000908</userName></sensor>
+    <sensor inverted="false"><systemName>MS0009/09</systemName><userName>000909</userName></sensor>
+    <sensor inverted="false"><systemName>MS0009/10</systemName><userName>000910</userName></sensor>
+    
+    <sensor inverted="false"><systemName>MS0010/01</systemName><userName>001001</userName></sensor>
+    <sensor inverted="false"><systemName>MS0010/02</systemName><userName>001002</userName></sensor>
+    <sensor inverted="false"><systemName>MS0010/03</systemName><userName>001003</userName></sensor>
+    <sensor inverted="false"><systemName>MS0010/04</systemName><userName>001004</userName></sensor>
+    <sensor inverted="false"><systemName>MS0010/05</systemName><userName>001005</userName></sensor>
+    <sensor inverted="false"><systemName>MS0010/06</systemName><userName>001006</userName></sensor>
+    <sensor inverted="false"><systemName>MS0010/07</systemName><userName>001007</userName></sensor>
+    <sensor inverted="false"><systemName>MS0010/08</systemName><userName>001008</userName></sensor>
+    <sensor inverted="false"><systemName>MS0010/09</systemName><userName>001009</userName></sensor>
+    <sensor inverted="false"><systemName>MS0010/10</systemName><userName>001010</userName></sensor>
+
+    <sensor inverted="false"><systemName>MS0011/01</systemName><userName>001101</userName></sensor>
+    <sensor inverted="false"><systemName>MS0011/02</systemName><userName>001102</userName></sensor>
+    <sensor inverted="false"><systemName>MS0011/03</systemName><userName>001103</userName></sensor>
+    <sensor inverted="false"><systemName>MS0011/04</systemName><userName>001104</userName></sensor>
+    <sensor inverted="false"><systemName>MS0011/05</systemName><userName>001105</userName></sensor>
+    <sensor inverted="false"><systemName>MS0011/06</systemName><userName>001106</userName></sensor>
+    <sensor inverted="false"><systemName>MS0011/07</systemName><userName>001107</userName></sensor>
+    <sensor inverted="false"><systemName>MS0011/08</systemName><userName>001108</userName></sensor>
+    <sensor inverted="false"><systemName>MS0011/09</systemName><userName>001109</userName></sensor>
+    <sensor inverted="false"><systemName>MS0011/10</systemName><userName>001110</userName></sensor>
+    
+    <sensor inverted="false"><systemName>MS0012/01</systemName><userName>001201</userName></sensor>
+    <sensor inverted="false"><systemName>MS0012/02</systemName><userName>001202</userName></sensor>
+    <sensor inverted="false"><systemName>MS0012/03</systemName><userName>001203</userName></sensor>
+    <sensor inverted="false"><systemName>MS0012/04</systemName><userName>001204</userName></sensor>
+    <sensor inverted="false"><systemName>MS0012/05</systemName><userName>001205</userName></sensor>
+    <sensor inverted="false"><systemName>MS0012/06</systemName><userName>001206</userName></sensor>
+    <sensor inverted="false"><systemName>MS0012/07</systemName><userName>001207</userName></sensor>
+    <sensor inverted="false"><systemName>MS0012/08</systemName><userName>001208</userName></sensor>
+    <sensor inverted="false"><systemName>MS0012/09</systemName><userName>001209</userName></sensor>
+    <sensor inverted="false"><systemName>MS0012/10</systemName><userName>001210</userName></sensor>
+    
+    <sensor inverted="false"><systemName>MS0013/01</systemName><userName>001301</userName></sensor>
+    <sensor inverted="false"><systemName>MS0013/02</systemName><userName>001302</userName></sensor>
+    <sensor inverted="false"><systemName>MS0013/03</systemName><userName>001303</userName></sensor>
+    <sensor inverted="false"><systemName>MS0013/04</systemName><userName>001304</userName></sensor>
+    <sensor inverted="false"><systemName>MS0013/05</systemName><userName>001305</userName></sensor>
+    <sensor inverted="false"><systemName>MS0013/06</systemName><userName>001306</userName></sensor>
+    <sensor inverted="false"><systemName>MS0013/07</systemName><userName>001307</userName></sensor>
+    <sensor inverted="false"><systemName>MS0013/08</systemName><userName>001308</userName></sensor>
+    <sensor inverted="false"><systemName>MS0013/09</systemName><userName>001309</userName></sensor>
+    <sensor inverted="false"><systemName>MS0013/10</systemName><userName>001310</userName></sensor>
+    
+    <sensor inverted="false"><systemName>MS0014/01</systemName><userName>001401</userName></sensor>
+    <sensor inverted="false"><systemName>MS0014/02</systemName><userName>001402</userName></sensor>
+    <sensor inverted="false"><systemName>MS0014/03</systemName><userName>001403</userName></sensor>
+    <sensor inverted="false"><systemName>MS0014/04</systemName><userName>001404</userName></sensor>
+    <sensor inverted="false"><systemName>MS0014/05</systemName><userName>001405</userName></sensor>
+    <sensor inverted="false"><systemName>MS0014/06</systemName><userName>001406</userName></sensor>
+    <sensor inverted="false"><systemName>MS0014/07</systemName><userName>001407</userName></sensor>
+    <sensor inverted="false"><systemName>MS0014/08</systemName><userName>001408</userName></sensor>
+    <sensor inverted="false"><systemName>MS0014/09</systemName><userName>001409</userName></sensor>
+    <sensor inverted="false"><systemName>MS0014/10</systemName><userName>001410</userName></sensor>
+    
+    <sensor inverted="false"><systemName>MS0015/01</systemName><userName>001501</userName></sensor>
+    <sensor inverted="false"><systemName>MS0015/02</systemName><userName>001502</userName></sensor>
+    <sensor inverted="false"><systemName>MS0015/03</systemName><userName>001503</userName></sensor>
+    <sensor inverted="false"><systemName>MS0015/04</systemName><userName>001504</userName></sensor>
+    <sensor inverted="false"><systemName>MS0015/05</systemName><userName>001505</userName></sensor>
+    <sensor inverted="false"><systemName>MS0015/06</systemName><userName>001506</userName></sensor>
+    <sensor inverted="false"><systemName>MS0015/07</systemName><userName>001507</userName></sensor>
+    <sensor inverted="false"><systemName>MS0015/08</systemName><userName>001508</userName></sensor>
+    <sensor inverted="false"><systemName>MS0015/09</systemName><userName>001509</userName></sensor>
+    <sensor inverted="false"><systemName>MS0015/10</systemName><userName>001510</userName></sensor>
+
+    <sensor inverted="false"><systemName>MS0016/01</systemName><userName>001601</userName></sensor>
+    <sensor inverted="false"><systemName>MS0016/02</systemName><userName>001602</userName></sensor>
+    <sensor inverted="false"><systemName>MS0016/03</systemName><userName>001603</userName></sensor>
+    <sensor inverted="false"><systemName>MS0016/04</systemName><userName>001604</userName></sensor>
+    <sensor inverted="false"><systemName>MS0016/05</systemName><userName>001605</userName></sensor>
+    <sensor inverted="false"><systemName>MS0016/06</systemName><userName>001606</userName></sensor>
+    <sensor inverted="false"><systemName>MS0016/07</systemName><userName>001607</userName></sensor>
+    <sensor inverted="false"><systemName>MS0016/08</systemName><userName>001608</userName></sensor>
+    <sensor inverted="false"><systemName>MS0016/09</systemName><userName>001609</userName></sensor>
+    <sensor inverted="false"><systemName>MS0016/10</systemName><userName>001610</userName></sensor>
+    
+    <sensor inverted="false"><systemName>MS0017/01</systemName><userName>001701</userName></sensor>
+    <sensor inverted="false"><systemName>MS0017/02</systemName><userName>001702</userName></sensor>
+    <sensor inverted="false"><systemName>MS0017/03</systemName><userName>001703</userName></sensor>
+    <sensor inverted="false"><systemName>MS0017/04</systemName><userName>001704</userName></sensor>
+    <sensor inverted="false"><systemName>MS0017/05</systemName><userName>001705</userName></sensor>
+    <sensor inverted="false"><systemName>MS0017/06</systemName><userName>001706</userName></sensor>
+    <sensor inverted="false"><systemName>MS0017/07</systemName><userName>001707</userName></sensor>
+    <sensor inverted="false"><systemName>MS0017/08</systemName><userName>001708</userName></sensor>
+    <sensor inverted="false"><systemName>MS0017/09</systemName><userName>001709</userName></sensor>
+    <sensor inverted="false"><systemName>MS0017/10</systemName><userName>001710</userName></sensor>
+    
+    <sensor inverted="false"><systemName>MS0018/01</systemName><userName>001801</userName></sensor>
+    <sensor inverted="false"><systemName>MS0018/02</systemName><userName>001802</userName></sensor>
+    <sensor inverted="false"><systemName>MS0018/03</systemName><userName>001803</userName></sensor>
+    <sensor inverted="false"><systemName>MS0018/04</systemName><userName>001804</userName></sensor>
+    <sensor inverted="false"><systemName>MS0018/05</systemName><userName>001805</userName></sensor>
+    <sensor inverted="false"><systemName>MS0018/06</systemName><userName>001806</userName></sensor>
+    <sensor inverted="false"><systemName>MS0018/07</systemName><userName>001807</userName></sensor>
+    <sensor inverted="false"><systemName>MS0018/08</systemName><userName>001808</userName></sensor>
+    <sensor inverted="false"><systemName>MS0018/09</systemName><userName>001809</userName></sensor>
+    <sensor inverted="false"><systemName>MS0018/10</systemName><userName>001810</userName></sensor>
+    
+    <sensor inverted="false"><systemName>MS0019/01</systemName><userName>001901</userName></sensor>
+    <sensor inverted="false"><systemName>MS0019/02</systemName><userName>001902</userName></sensor>
+    <sensor inverted="false"><systemName>MS0019/03</systemName><userName>001903</userName></sensor>
+    <sensor inverted="false"><systemName>MS0019/04</systemName><userName>001904</userName></sensor>
+    <sensor inverted="false"><systemName>MS0019/05</systemName><userName>001905</userName></sensor>
+    <sensor inverted="false"><systemName>MS0019/06</systemName><userName>001906</userName></sensor>
+    <sensor inverted="false"><systemName>MS0019/07</systemName><userName>001907</userName></sensor>
+    <sensor inverted="false"><systemName>MS0019/08</systemName><userName>001908</userName></sensor>
+    <sensor inverted="false"><systemName>MS0019/09</systemName><userName>001909</userName></sensor>
+    <sensor inverted="false"><systemName>MS0019/10</systemName><userName>001910</userName></sensor>
+    
+    <sensor inverted="false"><systemName>MS0020/01</systemName><userName>002001</userName></sensor>
+    <sensor inverted="false"><systemName>MS0020/02</systemName><userName>002002</userName></sensor>
+    <sensor inverted="false"><systemName>MS0020/03</systemName><userName>002003</userName></sensor>
+    <sensor inverted="false"><systemName>MS0020/04</systemName><userName>002004</userName></sensor>
+    <sensor inverted="false"><systemName>MS0020/05</systemName><userName>002005</userName></sensor>
+    <sensor inverted="false"><systemName>MS0020/06</systemName><userName>002006</userName></sensor>
+    <sensor inverted="false"><systemName>MS0020/07</systemName><userName>002007</userName></sensor>
+    <sensor inverted="false"><systemName>MS0020/08</systemName><userName>002008</userName></sensor>
+    <sensor inverted="false"><systemName>MS0020/09</systemName><userName>002009</userName></sensor>
+    <sensor inverted="false"><systemName>MS0020/10</systemName><userName>002010</userName></sensor>
+  </sensors>
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+  </signalmastlogics>
+  <filehistory>
+  </filehistory>
+  <!--Written by JMRI version 4.22+R4c4384d74 on Mon Apr 12 05:26:21 CDT 2021-->
+</layout-config>
