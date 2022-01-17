@@ -5,7 +5,7 @@
 
 ---
 
-**⸢ [Website] ⸥**
+**⸢ [Website] ⸥ ⸢ [Download] ⸥ ⸢ [Documentation] ⸥**
 
 ---
 
@@ -13,8 +13,6 @@
 <br>
 
 ## Linux | Pi | MacOS
-
-<br>
 
 ### Requirements
 
@@ -51,8 +49,6 @@ esptool.py                      \
 
 ## Windows
 
-<br>
-
 ### Requirements
 
 - Install **[NodeMCU-Flasher]**.
@@ -74,6 +70,8 @@ Use the following settings :
 <!----------------------------------------------------------------------------->
 
 [Website]: https://www.mqtrains.com/
+[Documentation]: ./released/mqTrains-UserReference.pdf
+[Download]: ./preReleased/IOMCP/mqTrains_IO_0.77_1MB.bin
 
 [Python]: https://www.python.org/
 [PIP]: https://pypi.org/project/pip/
