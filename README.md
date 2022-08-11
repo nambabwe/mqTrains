@@ -1,80 +1,49 @@
 
+<br>
+
+<div align = center>
+
 # mqTrains
 
 *Model railroad electronics using* ***MQTT*** *.*
 
----
-
-**⸢ [Website] ⸥ ⸢ [Download] ⸥ ⸢ [Documentation] ⸥**
-
----
-
-
+<br>
 <br>
 
-## Linux | Pi | MacOS
+[![Button Website]][Website]   
+[![Button Download]][Download]   
+[![Button Documentation]][Documentation]
 
-### Requirements
-
-- **[Python]** & **[PIP]**
-
-    ```sh
-    sudo apt install python python-pip
-    ```
-
-- **[ESPTool]**
-
-    ```sh
-    sudo pip install esptool
-    ```
+[![Button Requirements]][Requirements]   
+[![Button Uploading]][Uploading]
 
 <br>
-
-### Uploading
-
-```sh
-esptool.py                      \
-    --baud 460800               \
-    --chip esp8266              \
-    --port /dev/ttyUSB0         \
-    --before default_reset      \
-    --after hard_reset write_flash 0x0 mqTrains_ServoPCA_0.98_1MB.bin
-```
-
 <br>
 
----
+<img
+    src = 'resources/Showcase.jpg'
+    width = 600
+/>
+
+</div>
 
 <br>
-
-## Windows
-
-### Requirements
-
-- Install **[NodeMCU-Flasher]**.
-
-<br>
-
-### Uploading
-
-Use the following settings :
-
-| Settings | Value |
-|:--------:|:-----:|
-| **Baudrate** | `230400m`
-| **Flash Speed** | `40MHz`
-| **Flash Size** | `1MB`
-| **SPI Mode** | `DOUT`
 
 
 <!----------------------------------------------------------------------------->
 
 [Website]: https://www.mqtrains.com/
-[Documentation]: ./released/mqTrains-UserReference.pdf
-[Download]: ./preReleased/IOMCP/mqTrains_IO_0.77_1MB.bin
 
-[Python]: https://www.python.org/
-[PIP]: https://pypi.org/project/pip/
-[ESPTool]: https://pypi.org/project/esptool/
+[Documentation]: released/mqTrains-UserReference.pdf
+[Requirements]: docs/Requirements.md
+[Uploading]: docs/Uploading.md
+[Download]: preReleased/IOMCP/mqTrains_IO_0.77_1MB.bin
 
-[NodeMCU-Flasher]: https://github.com/nodemcu/nodemcu-flasher
+
+<!---------------------------------[ Buttons ]--------------------------------->
+
+[Button Documentation]: https://img.shields.io/badge/Documentation-008FC7?style=for-the-badge&logoColor=white&logo=GitBook
+[Button Requirements]: https://img.shields.io/badge/Requirements-167C80?style=for-the-badge&logoColor=white&logo=pnpm
+[Button Uploading]: https://img.shields.io/badge/Uploading-CC6699?style=for-the-badge&logoColor=white&logo=RSS
+[Button Download]: https://img.shields.io/badge/Download-C9284D?style=for-the-badge&logoColor=white&logo=DocuSign
+[Button Website]: https://img.shields.io/badge/Website-569A31?style=for-the-badge&logoColor=white&logo=GoogleChrome
