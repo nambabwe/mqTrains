@@ -1,0 +1,1 @@
+Earliy pre-release 0.26: 10 masts on pin 2 and 5 masts on pin 0, can only configure mast colors and aspect names in html.
