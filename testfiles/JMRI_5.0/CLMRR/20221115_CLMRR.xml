@@ -1,0 +1,1418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-4-19-2.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-4-19-2.xsd">
+  <jmriversion>
+    <major>5</major>
+    <minor>0</minor>
+    <test>0</test>
+    <modifier />
+  </jmriversion>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>ISCLOCKRUNNING</systemName>
+    </sensor>
+  </sensors>
+  <turnouts class="jmri.jmrix.internal.configurexml.InternalTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <defaultclosedspeed>Normal</defaultclosedspeed>
+    <defaultthrownspeed>Restricted</defaultthrownspeed>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0001</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0002</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0003</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0004</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0005</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0006</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0007</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0008</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0009</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0010</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0011</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0012</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0013</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0014</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0015</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0016</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0017</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0018</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0019</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0020</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0021</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0022</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0023</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0024</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0025</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0026</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0027</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0028</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0029</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0030</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0031</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0032</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0033</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0034</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0035</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0036</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0037</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0038</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0039</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT0040</systemName>
+    </turnout>
+  </turnouts>
+  <turnouts class="jmri.jmrix.mqtt.configurexml.MqttTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <defaultclosedspeed>Normal</defaultclosedspeed>
+    <defaultthrownspeed>Restricted</defaultthrownspeed>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>MT1001/15</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>MT1001/16</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>MT1002/15</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>MT1002/16</systemName>
+    </turnout>
+  </turnouts>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory value="7:49 AM">
+      <systemName>IMCURRENTTIME</systemName>
+    </memory>
+    <memory value="1.0">
+      <systemName>IMRATEFACTOR</systemName>
+    </memory>
+  </memories>
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+  </signalmastlogics>
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Mon Nov 07 22:15:01 CST 2022" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
+  <LogixNGs class="jmri.jmrit.logixng.implementation.configurexml.DefaultLogixNGManagerXml">
+    <Thread>
+      <id>0</id>
+      <name>LogixNG thread</name>
+    </Thread>
+    <LogixNG enabled="yes">
+      <systemName>IQ:AUTO:0001</systemName>
+      <userName>SpokaneRight</userName>
+      <ConditionalNGs>
+        <systemName>IQC:AUTO:0001</systemName>
+        <systemName>IQC:AUTO:0002</systemName>
+      </ConditionalNGs>
+    </LogixNG>
+    <InitializationTable />
+    <Clipboard>
+      <Many class="jmri.jmrit.logixng.implementation.configurexml.ClipboardManyXml">
+        <Socket>
+          <socketName>X1</socketName>
+        </Socket>
+      </Many>
+    </Clipboard>
+  </LogixNGs>
+  <LogixNGConditionalNGs class="jmri.jmrit.logixng.implementation.configurexml.DefaultConditionalNGManagerXml">
+    <ConditionalNG enabled="yes">
+      <systemName>IQC:AUTO:0001</systemName>
+      <userName>100116</userName>
+      <thread>0</thread>
+      <Socket>
+        <socketName>A</socketName>
+        <systemName>IQDA:AUTO:0002</systemName>
+      </Socket>
+    </ConditionalNG>
+    <ConditionalNG enabled="yes">
+      <systemName>IQC:AUTO:0002</systemName>
+      <userName>100115</userName>
+      <thread>0</thread>
+      <Socket>
+        <socketName>A</socketName>
+        <systemName>IQDA:AUTO:0005</systemName>
+      </Socket>
+    </ConditionalNG>
+  </LogixNGConditionalNGs>
+  <LogixNGDigitalExpressions class="jmri.jmrit.logixng.implementation.configurexml.DefaultDigitalExpressionManagerXml">
+    <ExpressionTurnout class="jmri.jmrit.logixng.expressions.configurexml.ExpressionTurnoutXml">
+      <systemName>IQDE:AUTO:0001</systemName>
+      <namedBean>
+        <addressing>Direct</addressing>
+        <name>IT0001</name>
+        <listenToMemory>no</listenToMemory>
+      </namedBean>
+      <is_isNot>Is</is_isNot>
+      <stateAddressing>Direct</stateAddressing>
+      <turnoutState>Closed</turnoutState>
+      <stateReference />
+      <stateLocalVariable />
+      <stateFormula />
+      <MaleSocket>
+        <AbstractDebuggerMaleSocket class="jmri.jmrit.logixng.tools.debugger.configurexml.DebuggerMaleDigitalExpressionSocketXml" />
+        <AbstractMaleSocket enabled="yes" locked="no" system="no" catchAbortExecution="no" class="jmri.jmrit.logixng.implementation.configurexml.DefaultMaleDigitalExpressionSocketXml" DefaultMaleDigitalExpressionSocketListen="yes">
+          <errorHandling>Default</errorHandling>
+        </AbstractMaleSocket>
+      </MaleSocket>
+    </ExpressionTurnout>
+    <ExpressionTurnout class="jmri.jmrit.logixng.expressions.configurexml.ExpressionTurnoutXml">
+      <systemName>IQDE:AUTO:0002</systemName>
+      <namedBean>
+        <addressing>Direct</addressing>
+        <name>IT0002</name>
+        <listenToMemory>no</listenToMemory>
+      </namedBean>
+      <is_isNot>Is</is_isNot>
+      <stateAddressing>Direct</stateAddressing>
+      <turnoutState>Closed</turnoutState>
+      <stateReference />
+      <stateLocalVariable />
+      <stateFormula />
+      <MaleSocket>
+        <AbstractDebuggerMaleSocket class="jmri.jmrit.logixng.tools.debugger.configurexml.DebuggerMaleDigitalExpressionSocketXml" />
+        <AbstractMaleSocket enabled="yes" locked="no" system="no" catchAbortExecution="no" class="jmri.jmrit.logixng.implementation.configurexml.DefaultMaleDigitalExpressionSocketXml" DefaultMaleDigitalExpressionSocketListen="yes">
+          <errorHandling>Default</errorHandling>
+        </AbstractMaleSocket>
+      </MaleSocket>
+    </ExpressionTurnout>
+  </LogixNGDigitalExpressions>
+  <LogixNGDigitalActions class="jmri.jmrit.logixng.implementation.configurexml.DefaultDigitalActionManagerXml">
+    <IfThenElse class="jmri.jmrit.logixng.actions.configurexml.IfThenElseXml" type="ExecuteOnChange">
+      <systemName>IQDA:AUTO:0002</systemName>
+      <IfSocket>
+        <socketName>If</socketName>
+        <systemName>IQDE:AUTO:0001</systemName>
+      </IfSocket>
+      <ThenSocket>
+        <socketName>Then</socketName>
+        <systemName>IQDA:AUTO:0003</systemName>
+      </ThenSocket>
+      <ElseSocket>
+        <socketName>Else</socketName>
+        <systemName>IQDA:AUTO:0004</systemName>
+      </ElseSocket>
+      <MaleSocket>
+        <AbstractDebuggerMaleSocket class="jmri.jmrit.logixng.tools.debugger.configurexml.DebuggerMaleDigitalActionSocketXml" />
+        <AbstractMaleSocket enabled="yes" locked="no" system="no" catchAbortExecution="no" class="jmri.jmrit.logixng.implementation.configurexml.DefaultMaleDigitalActionSocketXml">
+          <errorHandling>Default</errorHandling>
+        </AbstractMaleSocket>
+      </MaleSocket>
+    </IfThenElse>
+    <ActionTurnout class="jmri.jmrit.logixng.actions.configurexml.ActionTurnoutXml">
+      <systemName>IQDA:AUTO:0003</systemName>
+      <namedBean>
+        <addressing>Direct</addressing>
+        <name>MT1001/16</name>
+        <listenToMemory>no</listenToMemory>
+      </namedBean>
+      <state>
+        <addressing>Direct</addressing>
+        <enum>Closed</enum>
+        <listenToMemory>no</listenToMemory>
+      </state>
+      <MaleSocket>
+        <AbstractDebuggerMaleSocket class="jmri.jmrit.logixng.tools.debugger.configurexml.DebuggerMaleDigitalActionSocketXml" />
+        <AbstractMaleSocket enabled="yes" locked="no" system="no" catchAbortExecution="no" class="jmri.jmrit.logixng.implementation.configurexml.DefaultMaleDigitalActionSocketXml">
+          <errorHandling>Default</errorHandling>
+        </AbstractMaleSocket>
+      </MaleSocket>
+    </ActionTurnout>
+    <ActionTurnout class="jmri.jmrit.logixng.actions.configurexml.ActionTurnoutXml">
+      <systemName>IQDA:AUTO:0004</systemName>
+      <namedBean>
+        <addressing>Direct</addressing>
+        <name>MT1001/16</name>
+        <listenToMemory>no</listenToMemory>
+      </namedBean>
+      <state>
+        <addressing>Direct</addressing>
+        <enum>Thrown</enum>
+        <listenToMemory>no</listenToMemory>
+      </state>
+      <MaleSocket>
+        <AbstractDebuggerMaleSocket class="jmri.jmrit.logixng.tools.debugger.configurexml.DebuggerMaleDigitalActionSocketXml" />
+        <AbstractMaleSocket enabled="yes" locked="no" system="no" catchAbortExecution="no" class="jmri.jmrit.logixng.implementation.configurexml.DefaultMaleDigitalActionSocketXml">
+          <errorHandling>Default</errorHandling>
+        </AbstractMaleSocket>
+      </MaleSocket>
+    </ActionTurnout>
+    <IfThenElse class="jmri.jmrit.logixng.actions.configurexml.IfThenElseXml" type="ExecuteOnChange">
+      <systemName>IQDA:AUTO:0005</systemName>
+      <IfSocket>
+        <socketName>If</socketName>
+        <systemName>IQDE:AUTO:0002</systemName>
+      </IfSocket>
+      <ThenSocket>
+        <socketName>Then</socketName>
+        <systemName>IQDA:AUTO:0006</systemName>
+      </ThenSocket>
+      <ElseSocket>
+        <socketName>Else</socketName>
+        <systemName>IQDA:AUTO:0007</systemName>
+      </ElseSocket>
+      <MaleSocket>
+        <AbstractDebuggerMaleSocket class="jmri.jmrit.logixng.tools.debugger.configurexml.DebuggerMaleDigitalActionSocketXml" />
+        <AbstractMaleSocket enabled="yes" locked="no" system="no" catchAbortExecution="no" class="jmri.jmrit.logixng.implementation.configurexml.DefaultMaleDigitalActionSocketXml">
+          <errorHandling>Default</errorHandling>
+        </AbstractMaleSocket>
+      </MaleSocket>
+    </IfThenElse>
+    <ActionTurnout class="jmri.jmrit.logixng.actions.configurexml.ActionTurnoutXml">
+      <systemName>IQDA:AUTO:0006</systemName>
+      <namedBean>
+        <addressing>Direct</addressing>
+        <name>MT1001/15</name>
+        <listenToMemory>no</listenToMemory>
+      </namedBean>
+      <state>
+        <addressing>Direct</addressing>
+        <enum>Closed</enum>
+        <listenToMemory>no</listenToMemory>
+      </state>
+      <MaleSocket>
+        <AbstractDebuggerMaleSocket class="jmri.jmrit.logixng.tools.debugger.configurexml.DebuggerMaleDigitalActionSocketXml" />
+        <AbstractMaleSocket enabled="yes" locked="no" system="no" catchAbortExecution="no" class="jmri.jmrit.logixng.implementation.configurexml.DefaultMaleDigitalActionSocketXml">
+          <errorHandling>Default</errorHandling>
+        </AbstractMaleSocket>
+      </MaleSocket>
+    </ActionTurnout>
+    <ActionTurnout class="jmri.jmrit.logixng.actions.configurexml.ActionTurnoutXml">
+      <systemName>IQDA:AUTO:0007</systemName>
+      <namedBean>
+        <addressing>Direct</addressing>
+        <name>MT1001/15</name>
+        <listenToMemory>no</listenToMemory>
+      </namedBean>
+      <state>
+        <addressing>Direct</addressing>
+        <enum>Thrown</enum>
+        <listenToMemory>no</listenToMemory>
+      </state>
+      <MaleSocket>
+        <AbstractDebuggerMaleSocket class="jmri.jmrit.logixng.tools.debugger.configurexml.DebuggerMaleDigitalActionSocketXml" />
+        <AbstractMaleSocket enabled="yes" locked="no" system="no" catchAbortExecution="no" class="jmri.jmrit.logixng.implementation.configurexml.DefaultMaleDigitalActionSocketXml">
+          <errorHandling>Default</errorHandling>
+        </AbstractMaleSocket>
+      </MaleSocket>
+    </ActionTurnout>
+  </LogixNGDigitalActions>
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Panel" x="95" y="276" height="465" width="3489" editable="yes" positionable="yes" showtooltips="no" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="128" greenBackground="128" blueBackground="128">
+    <turnouticon turnout="IT0001" x="2588" y="199" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0004" x="2475" y="176" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <positionablelabel x="2506" y="199" level="3" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2522" y="222" level="3" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <turnouticon turnout="IT0005" x="2378" y="222" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0006" x="2338" y="199" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <positionablelabel x="2435" y="199" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2416" y="245" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2446" y="245" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2478" y="245" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2482" y="222" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2450" y="222" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2418" y="222" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2377" y="199" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2402" y="199" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2298" y="199" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <turnouticon turnout="IT0007" x="2260" y="199" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0008" x="2222" y="222" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0009" x="2117" y="153" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <positionablelabel x="2142" y="199" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2182" y="199" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2220" y="199" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2118" y="222" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2150" y="222" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2182" y="222" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2183" y="245" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2146" y="245" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2116" y="245" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1881" y="199" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1920" y="199" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1960" y="199" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2628" y="199" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1920" y="190" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1920" y="208" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <turnouticon turnout="IT0010" x="2078" y="222" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <positionablelabel x="2112" y="199" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2476" y="189" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="4" size="12" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="2369" y="212" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="06" size="12" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="2256" y="212" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="07" size="12" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="2069" y="211" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="12" size="12" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <turnouticon turnout="IT0011" x="2079" y="176" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0012" x="2040" y="199" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0013" x="2000" y="176" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <positionablelabel x="2197" y="176" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2157" y="176" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2237" y="176" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2277" y="176" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2317" y="176" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2357" y="176" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2397" y="176" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2436" y="176" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2315" y="53" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Spokane" size="20" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1686" y="153" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1725" y="153" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1765" y="153" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1767" y="130" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1806" y="130" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2666" y="199" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1331" y="130" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1529" y="130" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1609" y="130" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1186" y="107" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1333" y="107" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1224" y="107" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1068" y="130" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1410" y="130" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1450" y="130" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="787" y="130" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="747" y="107" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="863" y="107" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="633" y="107" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="863" y="130" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="903" y="130" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1216" y="130" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1255" y="130" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1183" y="130" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="2033" y="188" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="13" size="12" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <turnouticon turnout="IT0014" x="1841" y="176" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0015" x="1801" y="153" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <positionablelabel x="1791" y="166" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" text="15" size="12" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="2587" y="212" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="1" size="12" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <turnouticon turnout="IT0017" x="1728" y="107" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0018" x="1688" y="107" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0019" x="1648" y="130" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0016" x="1846" y="107" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <positionablelabel x="1699" y="169" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Bypass" size="20" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1880" y="119" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" text="16" size="12" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1679" y="144" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" text="19" size="12" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <turnouticon turnout="IT0020" x="1569" y="107" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <positionablelabel x="1462" y="89" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Diamond" size="14" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <turnouticon turnout="IT0021" x="1489" y="107" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0026" x="1148" y="107" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0027" x="1108" y="107" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0028" x="1023" y="107" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0029" x="943" y="107" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0039" x="474" y="130" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0040" x="435" y="107" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0031" x="824" y="107" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/TrackSegments/os-left-crossover-closed.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/TrackSegments/os-left-crossover-thrown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/TrackSegments/os-left-crossover-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/TrackSegments/os-left-crossover.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0030" x="903" y="84" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0036" x="593" y="107" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/TrackSegments/os-left-crossover-closed.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/TrackSegments/os-left-crossover-thrown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/TrackSegments/os-left-crossover-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/TrackSegments/os-left-crossover.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0035" x="670" y="107" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0032" x="787" y="84" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0034" x="707" y="84" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0033" x="749" y="130" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0038" x="514" y="107" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/TrackSegments/os-right-crossover-closed.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/TrackSegments/os-right-crossover-thrown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/TrackSegments/os-right-crossover-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/TrackSegments/os-right-crossover-error.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0037" x="553" y="130" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <positionablelabel x="554" y="107" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="475" y="107" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="875" y="53" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Seattle" size="20" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="566" y="53" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Auburn" size="20" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <turnouticon turnout="IT0024" x="1294" y="107" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/TrackSegments/os-right-crossover-closed.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/TrackSegments/os-right-crossover-thrown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/TrackSegments/os-right-crossover-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/TrackSegments/os-right-crossover-error.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0022" x="1370" y="107" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/TrackSegments/os-left-crossover-closed.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/TrackSegments/os-left-crossover-thrown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/TrackSegments/os-left-crossover-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/TrackSegments/os-left-crossover.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <positionablelabel x="1255" y="107" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="360" y="130" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="397" y="130" level="3" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1024" y="159" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" text="?" size="12" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="2518" y="245" level="3" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <turnouticon turnout="IT0003" x="2531" y="176" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0002" x="2555" y="222" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <positionablelabel x="2100" y="130" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" text="&lt;-- West" size="12" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="2629" y="130" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" text="East--&gt;" size="12" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1172" y="188" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" text="&lt;-- West" size="12" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1484" y="188" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" text="East--&gt;" size="12" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="416" y="188" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" text="&lt;-- South" size="12" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="945" y="188" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" text="East--&gt;" size="12" style="1" red="51" green="51" blue="51" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+  </paneleditor>
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Spokane Right" x="134" y="371" height="209" width="431" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="none" redBackground="128" greenBackground="128" blueBackground="128">
+    <turnouticon turnout="IT0002" x="149" y="102" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/smallschematics/tracksegments/os-lefthand-west-closed.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/smallschematics/tracksegments/os-lefthand-west-thrown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/smallschematics/tracksegments/os-lefthand-west-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/smallschematics/tracksegments/os-lefthand-west-error.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="IT0001" x="195" y="78" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/smallschematics/tracksegments/os-lefthand-east-closed.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/smallschematics/tracksegments/os-lefthand-east-thrown.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/smallschematics/tracksegments/os-lefthand-east-unknown.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/smallschematics/tracksegments/os-lefthand-east-error.gif" degrees="180" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+  </paneleditor>
+  <!--Written by JMRI version 5.0+Rc441642522 on Tue Nov 15 07:49:46 CST 2022-->
+</layout-config>
