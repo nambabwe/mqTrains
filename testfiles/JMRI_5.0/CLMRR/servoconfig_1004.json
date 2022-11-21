@@ -1,0 +1,97 @@
+{
+  "ServoModules": {
+    "NumModules": 1,
+    "ModuleArray": [
+      {
+        "ID": 1,
+        "i2cAddOffset": 0,
+        "UpdTime": 30,
+        "ServoCount": 16,
+        "Enabled": 65535,
+        "ServoArray": [
+          {
+            "ID": 1,
+            "Closed": 380,
+            "Thrown": 265
+          },
+          {
+            "ID": 2,
+            "Closed": 292,
+            "Thrown": 302
+          },
+          {
+            "ID": 3,
+            "Closed": 293,
+            "Thrown": 303
+          },
+          {
+            "ID": 4,
+            "Closed": 294,
+            "Thrown": 304
+          },
+          {
+            "ID": 5,
+            "Closed": 295,
+            "Thrown": 305
+          },
+          {
+            "ID": 6,
+            "Closed": 296,
+            "Thrown": 306
+          },
+          {
+            "ID": 7,
+            "Closed": 297,
+            "Thrown": 307
+          },
+          {
+            "ID": 8,
+            "Closed": 298,
+            "Thrown": 308
+          },
+          {
+            "ID": 9,
+            "Closed": 299,
+            "Thrown": 309
+          },
+          {
+            "ID": 10,
+            "Closed": 300,
+            "Thrown": 310
+          },
+          {
+            "ID": 11,
+            "Closed": 301,
+            "Thrown": 311
+          },
+          {
+            "ID": 12,
+            "Closed": 302,
+            "Thrown": 312
+          },
+          {
+            "ID": 13,
+            "Closed": 303,
+            "Thrown": 313
+          },
+          {
+            "ID": 14,
+            "Closed": 304,
+            "Thrown": 314
+          },
+          {
+            "ID": 15,
+            "Closed": 305,
+            "Thrown": 315
+          },
+          {
+            "ID": 16,
+            "Closed": 360,
+            "Thrown": 260
+          }
+        ]
+      }
+    ]
+  },
+  "Ver": "1.04_ServoPCA"
+}

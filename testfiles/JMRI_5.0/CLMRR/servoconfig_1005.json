@@ -1,0 +1,113 @@
+{
+  "ServoModules": {
+    "NumModules": 1,
+    "ModuleArray": [
+      {
+        "ID": 1,
+        "i2cAddOffset": 0,
+        "UpdTime": 30,
+        "ServoCount": 16,
+        "Enabled": 65535,
+        "ServoArray": [
+          {
+            "ID": 1,
+            "Closed": 280,
+            "Thrown": 375,
+            "Linq": 1,
+            "Inv": false
+          },
+          {
+            "ID": 2,
+            "Closed": 280,
+            "Thrown": 350,
+            "Linq": 1,
+            "Inv": false
+          },
+          {
+            "ID": 3,
+            "Closed": 385,
+            "Thrown": 285,
+            "Linq": 2,
+            "Inv": false
+          },
+          {
+            "ID": 4,
+            "Closed": 294,
+            "Thrown": 380
+          },
+          {
+            "ID": 5,
+            "Closed": 285,
+            "Thrown": 375,
+            "Linq": 2,
+            "Inv": false
+          },
+          {
+            "ID": 6,
+            "Closed": 250,
+            "Thrown": 356
+          },
+          {
+            "ID": 7,
+            "Closed": 275,
+            "Thrown": 325
+          },
+          {
+            "ID": 8,
+            "Closed": 270,
+            "Thrown": 350
+          },
+          {
+            "ID": 9,
+            "Closed": 320,
+            "Thrown": 245
+          },
+          {
+            "ID": 10,
+            "Closed": 310,
+            "Thrown": 245,
+            "Linq": 3,
+            "Inv": false
+          },
+          {
+            "ID": 11,
+            "Closed": 275,
+            "Thrown": 345,
+            "Linq": 3,
+            "Inv": false
+          },
+          {
+            "ID": 12,
+            "Closed": 325,
+            "Thrown": 235
+          },
+          {
+            "ID": 13,
+            "Closed": 245,
+            "Thrown": 340,
+            "Linq": 4,
+            "Inv": false
+          },
+          {
+            "ID": 14,
+            "Closed": 375,
+            "Thrown": 250,
+            "Linq": 4,
+            "Inv": false
+          },
+          {
+            "ID": 15,
+            "Closed": 305,
+            "Thrown": 315
+          },
+          {
+            "ID": 16,
+            "Closed": 306,
+            "Thrown": 316
+          }
+        ]
+      }
+    ]
+  },
+  "Ver": "1.04_ServoPCA"
+}
