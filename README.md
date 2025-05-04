@@ -1,16 +1,49 @@
+
+<br>
+
+<div align = center>
+
 # mqTrains
-Model railroad electronics using MQTT
 
-www.mqTrains.com
+*Model railroad electronics using* ***MQTT*** *.*
 
-Upload with:
+<br>
+<br>
 
-Linux, Pi, MacOS:
-sudo apt-get install python python-pip
-sudo pip install esptool
+[![Button Website]][Website]   
+[![Button Download]][Download]   
+[![Button Documentation]][Documentation]
 
-esptool.py --chip esp8266 --port /dev/ttyUSB0 --baud 460800 --before default_reset --after hard_reset write_flash 0x0 mqTrains_ServoPCA_0.98_1MB.bin 
+[![Button Requirements]][Requirements]   
+[![Button Uploading]][Uploading]
 
-Windows:
-Use nodemcu-flasher (https://github.com/nodemcu/nodemcu-flasher) with Baudreate 230400m Flash size 1MByte, Flash speed 40MHz AND SPI Mode DOUT
+<br>
+<br>
 
+<img
+    src = 'resources/Showcase.jpg'
+    width = 600
+/>
+
+</div>
+
+<br>
+
+
+<!----------------------------------------------------------------------------->
+
+[Download]: https://github.com/ElectronicsArchiver/mqTrains/raw/main/released/mqTrains-UserReference.pdf
+[Website]: https://www.mqtrains.com/
+
+[Documentation]: released/mqTrains-UserReference.pdf
+[Requirements]: docs/Requirements.md
+[Uploading]: docs/Uploading.md
+
+
+<!---------------------------------[ Buttons ]--------------------------------->
+
+[Button Documentation]: https://img.shields.io/badge/Documentation-008FC7?style=for-the-badge&logoColor=white&logo=GitBook
+[Button Requirements]: https://img.shields.io/badge/Requirements-167C80?style=for-the-badge&logoColor=white&logo=pnpm
+[Button Uploading]: https://img.shields.io/badge/Uploading-CC6699?style=for-the-badge&logoColor=white&logo=RSS
+[Button Download]: https://img.shields.io/badge/Download-C9284D?style=for-the-badge&logoColor=white&logo=DocuSign
+[Button Website]: https://img.shields.io/badge/Website-569A31?style=for-the-badge&logoColor=white&logo=GoogleChrome
